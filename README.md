@@ -1,15 +1,14 @@
-# Gopher-Hunting-App
-
-Gopher Hunting - Multi-threading using Handlers in Android
+# Gopher Hunting - Multi-threading using Handlers in Android
 The project aims at demonstarting the usage of the concepts of Handlers to perform multithreading in Android. Gopher Hunting is a two player game in which players makes guesses to find the location of a gopher placed in a grid.
 
 # About the game
 The layout of the game comprises of a 10x10 grid. The computer places a gopher in a random cell within this grid. Two players compete against each other to determine the location of the gopher within the cell. The first player to successfully find the location of the gopher wins the game. The game can be played in two modes:
 
-Continuous Mode
-Guess by Guess Mode
+1. Continuous Mode
+2. Guess by Guess Mode
+<br>
 In the continuous mode, both the players make a move continuously to find the location of the gopher, whereas, in the guess by guess mode one player makes a move and then wait for the other payer to make a move. The user interface comprises of option to change the mode of the game in between. During the execution of the game, there are four possible outcomes to the moves made by each player:
-
+<br>
 SUCCESS - When a player successfully discovers the location of Gopher.
 NEAR MISS - When a player guesses a cell within the 9 cells surrounding the gopher cell.
 CLOSE GUESS - When a player guesses a cell which is at a distance of 2 cells from the gopher cell.
